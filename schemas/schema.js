@@ -1,8 +1,34 @@
 // First, we must import the schema creator
 import createSchema from 'part:@sanity/base/schema-creator'
+// Schemas
+import blockContent from './blockContent';
+// Documents
+import page from './documents/page';
+// Objects
+import cta from './objects/cta';
+import simpleBlockContent from './objects/simpleBlockContent';
+import link from './objects/link';
+import mainImage from './objects/mainImage';
+import clientTestimonial from './objects/clientTestimonial';
+import listItem from './objects/listItem';
+import cvItem from './objects/cvItem';
+import jobRole from './objects/jobRole';
+// Plugs
+import hero from './plugs/hero';
+import illustration from './plugs/illustration';
+import oneColumnText from './plugs/oneColumnText';
+import twoColumnText from './plugs/twoColumnText';
+import testimonials from './plugs/testimonials';
+import cvTimeline from './plugs/cvTimeline';
+import oneColumnList from './plugs/oneColumnList';
+import twoColumnList from './plugs/twoColumnList';
+import roleComparison from './plugs/roleComparison';
+
 
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
+
+
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -12,5 +38,29 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     /* Your types here! */
+    // Schemas
+    blockContent,
+    // Documents
+    page,
+    // Objects
+    
+    link,
+    cta,
+    simpleBlockContent,
+    mainImage,
+    listItem,
+    clientTestimonial,
+    cvItem,
+    jobRole,
+    // Plugs
+    illustration,
+    hero,
+    oneColumnText,
+    twoColumnText,
+    oneColumnList,
+    twoColumnList,
+    testimonials,
+    cvTimeline,
+    roleComparison,
   ]),
 })
