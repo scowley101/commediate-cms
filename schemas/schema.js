@@ -4,6 +4,8 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import blockContent from './blockContent';
 // Documents
 import page from './documents/page';
+import navMenu from './documents/navMenu';
+import route from './documents/route';
 // Objects
 import cta from './objects/cta';
 import simpleBlockContent from './objects/simpleBlockContent';
@@ -13,6 +15,8 @@ import clientTestimonial from './objects/clientTestimonial';
 import listItem from './objects/listItem';
 import cvItem from './objects/cvItem';
 import jobRole from './objects/jobRole';
+import openGraph from './objects/openGraph';
+
 // Plugs
 import hero from './plugs/hero';
 import illustration from './plugs/illustration';
@@ -30,6 +34,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 
 
+
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -42,6 +47,8 @@ export default createSchema({
     blockContent,
     // Documents
     page,
+    navMenu,
+    route,
     // Objects
     
     link,
@@ -52,6 +59,7 @@ export default createSchema({
     clientTestimonial,
     cvItem,
     jobRole,
+    openGraph,
     // Plugs
     illustration,
     hero,
