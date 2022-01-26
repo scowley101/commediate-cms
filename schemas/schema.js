@@ -6,6 +6,8 @@ import blockContent from './blockContent';
 import page from './documents/page';
 import navMenu from './documents/navMenu';
 import route from './documents/route';
+import siteSettings from './documents/siteSettings';
+
 // Objects
 import cta from './objects/cta';
 import simpleBlockContent from './objects/simpleBlockContent';
@@ -49,6 +51,7 @@ export default createSchema({
     page,
     navMenu,
     route,
+    siteSettings,
     // Objects
     
     link,

@@ -15,13 +15,13 @@ export default {
         name: 'title',
         type: 'string'
       },
-    //   {
-    //     title: 'Landing page',
-    //     name: 'landingPageRoute',
-    //     type: 'reference',
-    //     fieldset: 'link',
-    //     to: [{type: 'route'}]
-    //   },
+      {
+        title: 'Landing page',
+        name: 'landingPageRoute',
+        type: 'reference',
+        fieldset: 'link',
+        to: [{type: 'route'}]
+      },
       {
         title: 'Path',
         name: 'route',
