@@ -18,6 +18,8 @@ export default {
            {title: 'Text Large', value: 'text-lg'},
            {title: 'Text XL', value: 'text-xl'},
            {title: 'Text 2XL', value: 'text-2xl'},
+           {title: 'Orange Underline', value: 'orangeUnderline'},
+
         ],
         marks: {
           decorators: [
@@ -25,7 +27,8 @@ export default {
             {title: 'Emphasis', value: 'em'},
             {title: 'Italic', value: 'italic'},
             {title: 'Code', value: 'code'},
-            {title: 'Underline', value: 'underline'}
+            {title: 'Underline', value: 'underline'},
+            {title: 'Orange Underline', value: 'orangeUnderline'},
           ],
           annotations: [
             {
