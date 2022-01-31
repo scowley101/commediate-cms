@@ -27,6 +27,7 @@ export default {
         description: 'Add, edit, and reorder sections',
         of: [
             {type: 'hero'},
+            {type: 'iconPlug'},
             {type: 'oneColumnText'},
             {type: 'twoColumnText'},
             {type: 'oneColumnList'},

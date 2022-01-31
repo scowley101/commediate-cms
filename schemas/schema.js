@@ -7,6 +7,7 @@ import page from './documents/page';
 import navMenu from './documents/navMenu';
 import route from './documents/route';
 import siteSettings from './documents/siteSettings';
+import icons from './documents/icons';
 
 // Objects
 import cta from './objects/cta';
@@ -18,6 +19,7 @@ import listItem from './objects/listItem';
 import cvItem from './objects/cvItem';
 import jobRole from './objects/jobRole';
 import openGraph from './objects/openGraph';
+import icon from './objects/icon';
 
 // Plugs
 import hero from './plugs/hero';
@@ -29,6 +31,7 @@ import cvTimeline from './plugs/cvTimeline';
 import oneColumnList from './plugs/oneColumnList';
 import twoColumnList from './plugs/twoColumnList';
 import roleComparison from './plugs/roleComparison';
+import iconPlug from './plugs/iconPlug';
 
 
 // Then import schema types from any plugins that might expose them
@@ -52,6 +55,7 @@ export default createSchema({
     navMenu,
     route,
     siteSettings,
+    icons,
     // Objects
     
     link,
@@ -63,6 +67,7 @@ export default createSchema({
     cvItem,
     jobRole,
     openGraph,
+    icon,
     // Plugs
     illustration,
     hero,
@@ -73,5 +78,6 @@ export default createSchema({
     testimonials,
     cvTimeline,
     roleComparison,
+    iconPlug,
   ]),
 })

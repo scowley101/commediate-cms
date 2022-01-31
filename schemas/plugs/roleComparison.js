@@ -1,7 +1,11 @@
+import {FaPeopleArrows} from "react-icons/fa";
+
+
 export default {
     type: 'object',
     name: 'roleComparison',
     title: 'Role Comparison',
+    icon: FaPeopleArrows,
     description: '',
     fields: [
         {

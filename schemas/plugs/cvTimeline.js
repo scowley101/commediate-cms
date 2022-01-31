@@ -1,7 +1,11 @@
+import {MdTimeline} from "react-icons/md";
+
+
 export default {
     type: 'object',
     name: 'cvTimeline',
     title: 'CV Timeline',
+    icon: MdTimeline,
     description: '',
     fields: [
         {

@@ -1,6 +1,10 @@
+import {RiCompass3Line} from "react-icons/ri";
+
+
 export default {
     type: 'document',
     name: 'navigationMenu',
+    icon: RiCompass3Line,
     fields: [
       {
         type: 'string',

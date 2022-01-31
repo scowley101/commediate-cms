@@ -1,7 +1,11 @@
+import {FiColumns} from "react-icons/fi";
+
+
 export default {
     type: 'object',
     name: 'twoColumnList',
     title: 'Two Column List',
+    icon: FiColumns,
     description: '',
     fields: [
         {

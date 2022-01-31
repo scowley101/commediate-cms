@@ -1,7 +1,11 @@
+
+import { MdVerticalAlignTop} from "react-icons/md";
+
 export default {
   type: 'object',
   name: 'hero',
   title: 'Hero',
+  icon: MdVerticalAlignTop,
   fields: [
     {
       name: 'label',
@@ -31,9 +35,9 @@ export default {
       subtitle: 'label',
       disabled: 'disabled'
     },
-    prepare({ title, disabled }) {
+    prepare({ title }) {
       return {
-        title: `Hero: ${disabled ? 'DISABLED' : title}`
+        title: "Hero",
       }
     }
   }

@@ -1,7 +1,12 @@
+import {GiTalk} from "react-icons/gi";
+
+
 export default {
     title: 'Testimonials',
     name: 'testimonials',
     type: 'object',
+    icon: GiTalk,
+
     fields: [
       {
         name: 'heading',

@@ -1,7 +1,11 @@
+import {FiSquare} from "react-icons/fi";
+
+
 export default {
     type: 'object',
     name: 'oneColumnList',
     title: 'One Column List',
+    icon: FiSquare,
     description: '',
     fields: [
         {

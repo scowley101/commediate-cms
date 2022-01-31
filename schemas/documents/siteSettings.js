@@ -1,7 +1,12 @@
+import {FiSettings} from "react-icons/fi";
+
+
 export default {
     name: 'siteSettings',
     type: 'document',
     title: 'Site Settings',
+    icon: FiSettings,
+
     __experimental_actions: ['update',  'create', 'delete',  'publish'],
     fields: [
       {

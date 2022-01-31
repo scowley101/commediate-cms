@@ -5,6 +5,14 @@ export default {
     fields: [
       // TODO: Add icons
       {
+        title: 'List Icon',
+        name: 'listIcon',
+        type: 'reference',
+        to: [
+          {type: 'icons'},
+        ]
+      },
+      {
         title: 'List Heading',
         name: 'listHeading',
         type: 'string'
