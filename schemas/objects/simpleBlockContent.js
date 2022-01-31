@@ -1,3 +1,13 @@
+import React from 'react'
+
+import {
+  mathInlineIcon,
+  mathIcon,
+  highlightIcon,
+  highlightRender,
+} from '../components/PortableTextEditorComponents'
+
+
 export default {
     title: 'Simple Block Content',
     name: 'simpleBlockContent',
@@ -28,7 +38,10 @@ export default {
             {title: 'Italic', value: 'italic'},
             {title: 'Code', value: 'code'},
             {title: 'Underline', value: 'underline'},
-            {title: 'Orange Underline', value: 'orangeUnderline'},
+            {title: 'Orange Underline', value: 'orangeUnderline', blockEditor: {
+              icon: highlightIcon,
+              render: highlightRender
+            }},
           ],
           annotations: [
             {
