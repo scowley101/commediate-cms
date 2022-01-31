@@ -7,8 +7,15 @@ export default {
       {
         title: 'Company',
         name: 'company',
-        type: 'simpleBlockContent'
+        type: 'string'
+        
         },
+        {
+          title: 'Company subtitle',
+          name: 'companySubtitle',
+          type: 'string'
+          
+          },
         {
             title: 'Years',
             name: 'years',
