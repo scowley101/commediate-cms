@@ -9,15 +9,27 @@ export default {
         name: 'jobTitle',
         type: 'string'
         },
-
-      {
-        title: 'Text',
-        name: 'text',
-        type: 'array',
-        of: [
-            {type: 'listItem'}
-        ]
-      }
+        {
+          title: 'Capabilities title',
+          name: 'capabilitiesTitle',
+          type: 'string'
+          },
+          {
+            title: 'Capabilities Text',
+            name: 'capabilitiesText',
+            type: 'simpleBlockContent'
+          },
+          {
+            title: 'Application title',
+            name: 'applicationTitle',
+            type: 'string'
+            },
+            {
+              title: 'Application Text',
+              name: 'applicationText',
+              type: 'simpleBlockContent'
+            },
+      
     ]
   }
   
