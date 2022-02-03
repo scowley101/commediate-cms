@@ -8,7 +8,6 @@ export default {
     icon: BiGridHorizontal,
 
     fields: [
-        
       {
         title: 'List of blocks',
         name: 'blocks',

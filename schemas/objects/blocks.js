@@ -6,7 +6,7 @@ export default {
       {
         title: "Heading",
         name: 'heading',
-        type: ''
+        type: 'simpleBlockContent'
       },
       {
         title: 'Body',
