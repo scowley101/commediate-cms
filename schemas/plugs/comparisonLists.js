@@ -66,7 +66,7 @@ export default {
       },
       prepare({title}) {
         return {
-          title: 'Two Column List',
+          title: 'Comparison Lists',
           subtitle: title
         }
       }
