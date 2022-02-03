@@ -35,6 +35,8 @@ export default {
             {type: 'testimonials'},
             {type: 'cvTimeline'},
             {type: 'roleComparison'},
+            {type: 'comparisonLists'},
+
            
 
     //       { type: 'hero' }, // hero.js (same applies for the other types)

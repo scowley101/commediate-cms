@@ -3,7 +3,7 @@ import {FiColumns} from "react-icons/fi";
 
 export default {
     type: 'object',
-    name: 'comparisonList',
+    name: 'comparisonLists',
     title: 'Comparison Lists',
     icon: FiColumns,
     description: '',

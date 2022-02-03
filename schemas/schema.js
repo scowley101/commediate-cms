@@ -32,6 +32,8 @@ import oneColumnList from './plugs/oneColumnList';
 import twoColumnList from './plugs/twoColumnList';
 import roleComparison from './plugs/roleComparison';
 import iconPlug from './plugs/iconPlug';
+import comparisonLists from './plugs/comparisonLists';
+
 
 
 // Then import schema types from any plugins that might expose them
@@ -79,5 +81,6 @@ export default createSchema({
     cvTimeline,
     roleComparison,
     iconPlug,
+    comparisonLists,
   ]),
 })
