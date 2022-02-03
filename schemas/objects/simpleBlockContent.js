@@ -5,6 +5,8 @@ import {
   mathIcon,
   highlightIcon,
   highlightRender,
+  tickIcon,
+  crossIcon,
 } from '../components/PortableTextEditorComponents'
 
 
@@ -41,6 +43,14 @@ export default {
             {title: 'Orange Underline', value: 'orangeUnderline', blockEditor: {
               icon: highlightIcon,
               render: highlightRender
+            }},
+            {title: 'Tick Icon List', value: 'tickIcon', blockEditor: {
+              icon: tickIcon,
+            
+            }},
+            {title: 'Cross Icon List', value: 'crossIcon', blockEditor: {
+              icon: crossIcon,
+            
             }},
           ],
           annotations: [

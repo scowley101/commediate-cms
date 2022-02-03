@@ -14,3 +14,11 @@ export const highlightIcon = () => (
 export const highlightRender = props => (
     <span style={{ backgroundColor: 'yellow' }}>{props.children}</span>
   )
+
+  export const tickIcon = () => (
+    <span>✅</span>
+    )
+
+    export const crossIcon = () => (
+      <span>❎</span>
+      )
