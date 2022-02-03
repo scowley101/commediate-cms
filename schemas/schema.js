@@ -20,6 +20,8 @@ import cvItem from './objects/cvItem';
 import jobRole from './objects/jobRole';
 import openGraph from './objects/openGraph';
 import icon from './objects/icon';
+import blocks from './objects/blocks';
+
 
 // Plugs
 import hero from './plugs/hero';
@@ -33,6 +35,7 @@ import twoColumnList from './plugs/twoColumnList';
 import roleComparison from './plugs/roleComparison';
 import iconPlug from './plugs/iconPlug';
 import comparisonLists from './plugs/comparisonLists';
+import horizontalBlocks from './plugs/horizontalBlocks';
 
 
 
@@ -70,6 +73,7 @@ export default createSchema({
     jobRole,
     openGraph,
     icon,
+    blocks,
     // Plugs
     illustration,
     hero,
@@ -82,5 +86,6 @@ export default createSchema({
     roleComparison,
     iconPlug,
     comparisonLists,
+    horizontalBlocks,
   ]),
 })

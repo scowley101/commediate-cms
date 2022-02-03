@@ -36,6 +36,8 @@ export default {
             {type: 'cvTimeline'},
             {type: 'roleComparison'},
             {type: 'comparisonLists'},
+            {type: 'horizontalBlocks'},
+
 
            
 
