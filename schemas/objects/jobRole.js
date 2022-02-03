@@ -14,6 +14,14 @@ export default {
           name: 'tagline',
           type: 'string'
           },
+          {
+            title: 'Job Icon',
+            name: 'jobIcon',
+            type: 'reference',
+            to: [
+              {type: 'icons'},
+            ]
+          },
         {
           title: 'Capabilities title',
           name: 'capabilitiesTitle',
