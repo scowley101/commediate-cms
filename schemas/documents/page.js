@@ -37,6 +37,7 @@ export default {
             {type: 'roleComparison'},
             {type: 'comparisonLists'},
             {type: 'horizontalBlocks'},
+            {type: 'contactForm'},
 
 
            

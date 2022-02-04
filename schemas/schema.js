@@ -37,6 +37,7 @@ import roleComparison from './plugs/roleComparison';
 import iconPlug from './plugs/iconPlug';
 import comparisonLists from './plugs/comparisonLists';
 import horizontalBlocks from './plugs/horizontalBlocks';
+import contactForm from './plugs/contactForm';
 
 
 
@@ -89,5 +90,6 @@ export default createSchema({
     iconPlug,
     comparisonLists,
     horizontalBlocks,
+    contactForm,
   ]),
 })
