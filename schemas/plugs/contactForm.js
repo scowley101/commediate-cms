@@ -17,7 +17,18 @@ export default {
             type: 'simpleBlockContent',
             title: 'Heading'
           },
-    
+          {
+            name: 'tagline',
+            type: 'simpleBlockContent',
+            title: 'Tagline'
+          },
+          {
+            title: "Show contact Form",
+            name: 'isForm',
+            type: 'boolean',
+            initialValue: true,
+            
+          },
     ],
     preview: {
       select: {
