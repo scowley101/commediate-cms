@@ -38,7 +38,7 @@ export default {
             {type: 'comparisonLists'},
             {type: 'horizontalBlocks'},
             {type: 'contactForm'},
-
+            {type: 'wordCloud'},
 
            
 

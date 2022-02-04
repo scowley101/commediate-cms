@@ -22,6 +22,7 @@ import openGraph from './objects/openGraph';
 import icon from './objects/icon';
 import blocks from './objects/blocks';
 import backgroundColorRadio from './objects/backgroundColorRadio';
+import words from './objects/words';
 
 
 // Plugs
@@ -38,6 +39,7 @@ import iconPlug from './plugs/iconPlug';
 import comparisonLists from './plugs/comparisonLists';
 import horizontalBlocks from './plugs/horizontalBlocks';
 import contactForm from './plugs/contactForm';
+import wordCloud from './plugs/wordCloud';
 
 
 
@@ -77,6 +79,7 @@ export default createSchema({
     icon,
     blocks,
     backgroundColorRadio,
+    words,
     // Plugs
     illustration,
     hero,
@@ -91,5 +94,6 @@ export default createSchema({
     comparisonLists,
     horizontalBlocks,
     contactForm,
+    wordCloud,
   ]),
 })
