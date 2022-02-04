@@ -19,10 +19,6 @@ export default {
             name: "tagline",
             type: 'simpleBlockContent'
           },
-          {
-            name: "backgroundColorRadio",
-            type: 'backgroundColorRadio'
-          },
       {
         title: 'List of blocks',
         name: 'blocks',

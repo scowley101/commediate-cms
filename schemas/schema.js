@@ -23,6 +23,7 @@ import icon from './objects/icon';
 import blocks from './objects/blocks';
 import backgroundColorRadio from './objects/backgroundColorRadio';
 import words from './objects/words';
+import comparisonListItem from './objects/comparisonListItem';
 
 
 // Plugs
@@ -40,6 +41,7 @@ import comparisonLists from './plugs/comparisonLists';
 import horizontalBlocks from './plugs/horizontalBlocks';
 import contactForm from './plugs/contactForm';
 import wordCloud from './plugs/wordCloud';
+import flowList from './plugs/flowList';
 
 
 
@@ -80,6 +82,7 @@ export default createSchema({
     blocks,
     backgroundColorRadio,
     words,
+    comparisonListItem,
     // Plugs
     illustration,
     hero,
@@ -95,5 +98,6 @@ export default createSchema({
     horizontalBlocks,
     contactForm,
     wordCloud,
+    flowList,
   ]),
 })
