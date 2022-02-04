@@ -12,6 +12,17 @@ export default {
             name: "backgroundColorRadio",
             type: 'backgroundColorRadio'
           },
+          {
+            name: "heading",
+            type: 'simpleBlockContent'
+          }, {
+            name: "tagline",
+            type: 'simpleBlockContent'
+          },
+          {
+            name: "backgroundColorRadio",
+            type: 'backgroundColorRadio'
+          },
       {
         title: 'List of blocks',
         name: 'blocks',
