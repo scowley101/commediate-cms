@@ -8,6 +8,10 @@ export default {
     icon: FiColumns,
     description: '',
     fields: [
+      {
+        name: "backgroundColorRadio",
+        type: 'backgroundColorRadio'
+      },
         {
             name: 'heading',
             type: 'simpleBlockContent',

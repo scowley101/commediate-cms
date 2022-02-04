@@ -8,6 +8,10 @@ export default {
   icon: MdVerticalAlignTop,
   fields: [
     {
+      name: "backgroundColorRadio",
+      type: 'backgroundColorRadio'
+    },
+    {
       name: 'label',
       type: 'string'
     },

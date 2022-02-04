@@ -21,6 +21,7 @@ import jobRole from './objects/jobRole';
 import openGraph from './objects/openGraph';
 import icon from './objects/icon';
 import blocks from './objects/blocks';
+import backgroundColorRadio from './objects/backgroundColorRadio';
 
 
 // Plugs
@@ -74,6 +75,7 @@ export default createSchema({
     openGraph,
     icon,
     blocks,
+    backgroundColorRadio,
     // Plugs
     illustration,
     hero,

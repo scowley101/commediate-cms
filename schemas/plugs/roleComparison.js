@@ -8,6 +8,10 @@ export default {
     icon: FaPeopleArrows,
     description: '',
     fields: [
+      {
+        name: "backgroundColorRadio",
+        type: 'backgroundColorRadio'
+      },
         {
             name: 'heading',
             type: 'simpleBlockContent',

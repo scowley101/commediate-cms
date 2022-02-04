@@ -9,6 +9,10 @@ export default {
 
     fields: [
       {
+        name: "backgroundColorRadio",
+        type: 'backgroundColorRadio'
+      },
+      {
         name: 'heading',
         type: 'simpleBlockContent'
       },

@@ -8,6 +8,10 @@ export default {
     icon: BiGridHorizontal,
 
     fields: [
+        {
+            name: "backgroundColorRadio",
+            type: 'backgroundColorRadio'
+          },
       {
         title: 'List of blocks',
         name: 'blocks',
