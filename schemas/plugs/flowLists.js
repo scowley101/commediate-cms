@@ -36,8 +36,8 @@ export default {
             type: 'simpleBlockContent'
           },
           {
-            title: 'Cons list',
-            name: 'consList',
+            title: 'Pros/Cons List',
+            name: 'prosConsList',
             type: 'array',
             of: [
                { type: 'comparisonListItem',}

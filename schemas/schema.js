@@ -41,7 +41,7 @@ import comparisonLists from './plugs/comparisonLists';
 import horizontalBlocks from './plugs/horizontalBlocks';
 import contactForm from './plugs/contactForm';
 import wordCloud from './plugs/wordCloud';
-import flowList from './plugs/flowList';
+import flowLists from './plugs/flowLists';
 
 
 
@@ -98,6 +98,6 @@ export default createSchema({
     horizontalBlocks,
     contactForm,
     wordCloud,
-    flowList,
+    flowLists,
   ]),
 })

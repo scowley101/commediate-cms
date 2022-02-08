@@ -21,6 +21,8 @@ export default {
             name: 'tagline',
             type: 'simpleBlockContent'
           },
+          {name: 'image',
+        type: 'illustration'},
           {
         title: 'Words',
         name: 'words',

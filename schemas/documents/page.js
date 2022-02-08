@@ -39,7 +39,7 @@ export default {
             {type: 'horizontalBlocks'},
             {type: 'contactForm'},
             {type: 'wordCloud'},
-            {type: 'flowList'},
+            {type: 'flowLists'},
            
 
     //       { type: 'hero' }, // hero.js (same applies for the other types)

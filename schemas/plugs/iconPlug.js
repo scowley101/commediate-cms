@@ -11,8 +11,27 @@ export default {
         {
             title: "Icon",
             name: "icon",
-            type: "iconPicker"
-        }
+            type: "icon"
+        },
+        {
+          title: "Icon Position",
+          name: "position",
+          type: "string",
+          options: {
+            list: ['left', 'right'],
+            layout: 'radio',
+          }
+      },
+        {
+          title: "Background Color of above module",
+          name: "backgroundColorAbove",
+          type: 'backgroundColorRadio'
+        },
+        {
+          title: "Background Color of below module",
+          name: "backgroundColorBelow",
+          type: 'backgroundColorRadio'
+        },
     ],
     preview: {
         select: {
