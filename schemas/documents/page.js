@@ -20,6 +20,14 @@ export default {
             to: [{ type: 'navigationMenu' }],
             description: 'Which nav menu should be shown, if any',
           },
+          {
+            name: 'footerNav',
+            type: 'reference',
+            title: 'Footer Menu',
+            // weak: true, // Uncomment if you want to be able to delete navigation even though pages refer to it
+            to: [{ type: 'navigationMenu' }],
+            description: 'Which nav menu should be shown, if any',
+          },
       {
         name: 'content',
         type: 'array',

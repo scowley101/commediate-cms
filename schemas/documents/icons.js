@@ -5,10 +5,11 @@ export default {
     name: 'icons',
     fields: [
       {
-        title: 'Icon',
-        name: 'icon',
-         type: 'icon',
-     },
+        title: 'Iconify Title',
+        name: 'iconifyTitle',
+        type: 'string',
+        
+      },
     ]
   }
   

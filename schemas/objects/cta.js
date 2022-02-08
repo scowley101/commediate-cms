@@ -42,8 +42,16 @@ export default {
         type: 'string',
         options: {
           layout: 'radio',
-          list: ['button', 'link']
+          list: ['button', 'link', 'icon']
         }
+      },
+      {
+        name: 'linkIcon',
+        type: 'reference',
+        title: 'Link Icon',
+        to: {
+          type: 'icons',
+        },
       }
     ],
     preview: {

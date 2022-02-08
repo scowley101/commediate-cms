@@ -5,9 +5,10 @@ export default {
     name: 'icon',
     fields: [
       {
+        title: 'Icon Code',
+        name: 'iconCode',
         type: 'string',
-        name: 'iconifyTitle',
-        Title: 'Iconify title'
+        
       },
       
     ]
