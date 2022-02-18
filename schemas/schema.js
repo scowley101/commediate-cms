@@ -2,13 +2,17 @@
 import createSchema from 'part:@sanity/base/schema-creator'
 // Schemas
 import blockContent from './blockContent';
+import latex from './latex';
+
 // Documents
 import page from './documents/page';
 import navMenu from './documents/navMenu';
 import route from './documents/route';
 import siteSettings from './documents/siteSettings';
 import icons from './documents/icons';
-
+import author from './documents/author';
+import post from './documents/post';
+import category from './documents/category';
 // Objects
 import cta from './objects/cta';
 import simpleBlockContent from './objects/simpleBlockContent';
@@ -24,6 +28,11 @@ import blocks from './objects/blocks';
 import backgroundColorRadio from './objects/backgroundColorRadio';
 import words from './objects/words';
 import comparisonListItem from './objects/comparisonListItem';
+import excerptPortableText from './objects/excerptPortableText';
+import authorReference from './objects/authorReference';
+import bodyPortableText from './objects/bodyPortableText';
+import bioPortableText from './objects/bioPortableText';
+import { instagram, videoEmbed } from './objects/embeds';
 
 
 // Plugs
@@ -51,6 +60,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 
 
+
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -61,12 +71,16 @@ export default createSchema({
     /* Your types here! */
     // Schemas
     blockContent,
+    latex,
     // Documents
     page,
     navMenu,
     route,
     siteSettings,
     icons,
+    author,
+    post,
+    category,
     // Objects
     
     link,
@@ -83,6 +97,12 @@ export default createSchema({
     backgroundColorRadio,
     words,
     comparisonListItem,
+    excerptPortableText,
+    authorReference,
+    bodyPortableText,
+    bioPortableText,
+    instagram,
+    videoEmbed,
     // Plugs
     illustration,
     hero,
