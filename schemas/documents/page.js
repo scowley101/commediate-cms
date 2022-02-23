@@ -48,6 +48,7 @@ export default {
             {type: 'contactForm'},
             {type: 'wordCloud'},
             {type: 'flowLists'},
+            {type: 'codeInject'},
     ]
   },
 ]

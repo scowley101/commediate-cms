@@ -51,6 +51,7 @@ import horizontalBlocks from './plugs/horizontalBlocks';
 import contactForm from './plugs/contactForm';
 import wordCloud from './plugs/wordCloud';
 import flowLists from './plugs/flowLists';
+import codeInject from './plugs/codeInject';
 
 
 
@@ -119,5 +120,6 @@ export default createSchema({
     contactForm,
     wordCloud,
     flowLists,
+    codeInject,
   ]),
 })

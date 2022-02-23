@@ -14,8 +14,8 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^2.27.0",
-    "@sanity/code-input": "^2.1.0",
+    "@sanity/base": "^2.27.1",
+    "@sanity/code-input": "^2.27.1",
     "@sanity/color-input": "^2.1.0",
     "@sanity/components": "^2.1.0",
     "@sanity/core": "^2.27.0",
@@ -45,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scowley101/mama-buci-cms.git"
+    "url": "https://github.com/scowley101/commediate-cms"
   }
 }
