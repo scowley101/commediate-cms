@@ -48,17 +48,6 @@ export default {
             {type: 'contactForm'},
             {type: 'wordCloud'},
             {type: 'flowLists'},
-           
-
-    //       { type: 'hero' }, // hero.js (same applies for the other types)
-    //       { type: 'textWithIllustration' },
-    //       { type: 'callToAction' },
-    //       { type: 'gallery' },
-    //       { type: 'form' },
-    //       { type: 'video' },
-    //       // etc...
-    //       ]
-    //   }
     ]
   },
 ]
