@@ -6,8 +6,7 @@ export default {
     type: 'document',
     title: 'Site Settings',
     icon: FiSettings,
-
-    __experimental_actions: ['update',  'create', 'delete',  'publish'],
+    __experimental_actions: ['update',  /*'create', 'delete',*/  'publish'],
     fields: [
       {
         name: 'title',

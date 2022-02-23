@@ -15,6 +15,7 @@ export default () =>
     .title('Content')
     .items([
       S.documentListItem()
+      .id('a8caf443-4574-4a9c-9ea4-77ae32882718')
         .schemaType('siteSettings')
         .title('Site settings')
         .icon(GoSettings)
@@ -25,6 +26,7 @@ export default () =>
             .views([S.view.form(), PreviewIFrame()])
         ),
       S.documentListItem()
+      .id('bea66a09-11f1-491e-a14c-5f5eddc22382')
         .title('Frontpage')
         .schemaType('page')
         .icon(GoHome)

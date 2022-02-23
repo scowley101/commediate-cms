@@ -45,6 +45,10 @@
     {
       "implements": "part:@sanity/production-preview/resolve-production-url",
       "path": "./resolvePreviewUrl.js"
+    },
+    {
+      "implements": "part:@sanity/base/document-actions/resolver",
+      "path": "resolveDocumentActions.js"
     }
   ]
 }
