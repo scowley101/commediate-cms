@@ -14,6 +14,7 @@
     "sanity"
   ],
   "dependencies": {
+    "@iconify/react": "^3.1.3",
     "@sanity/base": "^2.27.1",
     "@sanity/code-input": "^2.27.1",
     "@sanity/color-input": "^2.1.0",

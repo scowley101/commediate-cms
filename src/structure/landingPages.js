@@ -1,10 +1,11 @@
 import S from '@sanity/desk-tool/structure-builder'
 import PreviewIFrame from '../../src/components/previewIFrame'
-
+import { FaHammer } from "react-icons/fa"
 import { MdMenu } from "react-icons/md"
 
 export default S.listItem()
   .title('Page Builder')
+  .icon(FaHammer)
   .child(
     S.list()
       .title('Landing Pages')
@@ -35,6 +36,12 @@ export default S.listItem()
               .title('Pages')
               .menuItems(S.documentTypeList('page').getMenuItems())
               .filter('_type == "page" && _id != "bea66a09-11f1-491e-a14c-5f5eddc22382"')
+          ),
+          S.listItem()
+          .title('Icons')
+          .schemaType('icons')
+          .child(
+            S.documentTypeList('icons').title('Icons')
           ),
       ])
   )

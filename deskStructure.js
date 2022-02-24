@@ -6,7 +6,7 @@ import landingPages from './src/structure/landingPages'
 import PreviewIFrame from './src/components/previewIFrame'
 
 const hiddenDocTypes = (listItem) =>
-  !['route', 'navigationMenu', 'post', 'page', 'siteSettings', 'author', 'category'].includes(
+  !['route', 'navigationMenu', 'post', 'page', 'siteSettings', 'author', 'category', 'icons'].includes(
     listItem.getId()
   )
 
@@ -36,8 +36,8 @@ export default () =>
             .documentId('bea66a09-11f1-491e-a14c-5f5eddc22382')
             .views([S.view.form(), PreviewIFrame()])
         ),
-      blog,
       landingPages,
+      blog,
       // This returns an array of all the document types
       // defined in schema.js. We filter out those that we have
       // defined the structure above
