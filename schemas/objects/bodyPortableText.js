@@ -88,6 +88,7 @@ export default {
     },
     { type: 'instagram' },
     { type: 'videoEmbed' },
+    { type: 'soundcloud' },
     { type: 'math', icon: mathIcon, title: 'Math block' }
   ]
 }

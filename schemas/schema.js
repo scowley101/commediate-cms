@@ -32,7 +32,7 @@ import excerptPortableText from './objects/excerptPortableText';
 import authorReference from './objects/authorReference';
 import bodyPortableText from './objects/bodyPortableText';
 import bioPortableText from './objects/bioPortableText';
-import { instagram, videoEmbed } from './objects/embeds';
+import { instagram, videoEmbed, soundcloud } from './objects/embeds';
 
 
 // Plugs
@@ -104,6 +104,7 @@ export default createSchema({
     bioPortableText,
     instagram,
     videoEmbed,
+    soundcloud,
     // Plugs
     illustration,
     hero,

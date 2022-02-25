@@ -1,5 +1,7 @@
 import { MdVideocam } from "react-icons/md";
 import { MdPhotoCamera } from "react-icons/md";
+import { RiSoundcloudLine } from "react-icons/ri";
+
 import InstagramPreview from '../components/preview/Instagram'
 import EmbedPlayer from '../components/preview/EmbedPlayer'
 
@@ -30,6 +32,24 @@ export const videoEmbed = {
     {
       type: 'url',
       name: 'url',
+    },
+  ],
+  preview: {
+    select: { url: 'url' },
+    component: EmbedPlayer,
+  },
+}
+
+export const soundcloud = {
+  type: 'object',
+  name: 'soundcloud',
+  title: 'Soundcloud Post',
+  icon: RiSoundcloudLine,
+  fields: [
+    {
+      type: 'url',
+      name: 'url',
+      description: 'The URL to the post as seen in a desktop browser',
     },
   ],
   preview: {

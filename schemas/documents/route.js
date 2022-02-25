@@ -13,6 +13,7 @@ export default {
   name: 'route',
   type: 'document',
   title: 'Landing page routes',
+  description: 'TEst',
   icon: MdLink,
   initialValue: {
     useSiteTitle: false,

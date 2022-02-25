@@ -8,6 +8,7 @@ export default {
     icon: FiSettings,
     __experimental_actions: ['update',  /*'create', 'delete',*/  'publish'],
     fields: [
+     
       {
         name: 'title',
         type: 'string',
@@ -16,7 +17,7 @@ export default {
       {
         title: 'Open graph',
         name: 'openGraph',
-        description: 'These will be the default meta tags on all pages that have not set their own',
+        description: 'These will be the default meta tags on all pages that have not set their own.',
         type: 'openGraph'
       }
     ]

@@ -11,6 +11,7 @@ export default {
             name: 'title',
             type: 'string',
             title: 'Title',
+            description: 'The display title you want the page to have',
           },
           {
             name: 'navMenu',
