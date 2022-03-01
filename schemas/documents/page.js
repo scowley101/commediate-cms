@@ -39,7 +39,6 @@ export default {
             {type: 'iconPlug'},
             {type: 'oneColumnText'},
             {type: 'twoColumnText'},
-            {type: 'oneColumnList'},
             {type: 'twoColumnList'},
             {type: 'testimonials'},
             {type: 'cvTimeline'},
@@ -49,8 +48,9 @@ export default {
             {type: 'contactForm'},
             {type: 'wordCloud'},
             {type: 'flowLists'},
-            {type: 'codeInject'},
+           
     ]
   },
-]
+],
+
 }

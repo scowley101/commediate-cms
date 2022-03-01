@@ -1,17 +1,22 @@
 import preview from "part:sanity-plugin-icon-picker/preview";
+import { BsEmojiSmile } from "react-icons/bs"
 
 
 
 export default {
     type: 'object',
     name: 'iconPlug',
-    title: 'Icon',
+    title: 'Icon break',
+    icon: BsEmojiSmile,
     description: '',
     fields: [
         {
             title: "Icon",
-            name: "icon",
-            type: "icon"
+            name: "iconRef",
+            type: "reference",
+            to: [
+              {type: 'icons'}
+            ],
         },
         {
           title: "Icon Position",
@@ -34,17 +39,13 @@ export default {
         },
     ],
     preview: {
-        select: {
-          provider: "icon.provider",
-          name: "icon.name",
-        },
-        prepare(icon) {
-          return {
-            title: icon.provider,
-            subtitle: icon.name,
-            media: preview(icon),
-          };
-        },
+      select: {
+        title: 'title'
+      },
+      prepare({title}) {
+        return {
+          title: 'Icon'
+        }
       }
-
-  }
+    }
+}

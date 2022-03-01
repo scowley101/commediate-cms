@@ -22,6 +22,24 @@ export default {
         name: 'text',
         type: 'simpleBlockContent'
       },
-    ]
+    ],
+    preview: {
+      select: {
+        heading: 'listHeading',
+        body: 'text'
+      },
+      prepare({heading, body}) {
+        const headingContent = heading
+        const bodyContent = body[0].children[0].text
+
+
+        return {
+          
+          title: `${headingContent ? headingContent : bodyContent}`,
+        
+        
+        }
+      }
+    }
   }
   

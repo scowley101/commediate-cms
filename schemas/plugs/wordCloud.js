@@ -21,19 +21,7 @@ export default {
             name: 'tagline',
             type: 'simpleBlockContent'
           },
-          {name: 'image',
-        type: 'illustration'},
-          {
-        title: 'Words',
-        name: 'words',
-        type: 'array',
-        of: [
-          {
-            type: 'words'
-          }
-        ]
-      },
-          
+                          
     ],
     preview: {
       select: {
