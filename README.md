@@ -1,9 +1,5 @@
-# Sanity Clean Content Studio
+# Commediate's website cms
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+Built with Gatsby and Sanity on the backend.
 
-Now you can do the following things:
-
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+- [Repo for Sanity front end](https://github.com/scowley101/commediate-frontend)
