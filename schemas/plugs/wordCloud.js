@@ -21,7 +21,10 @@ export default {
             name: 'tagline',
             type: 'simpleBlockContent'
           },
-                          
+          {
+            name: 'cta',
+            type: 'cta'
+          },              
     ],
     preview: {
       select: {
