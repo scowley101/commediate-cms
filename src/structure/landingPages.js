@@ -1,9 +1,8 @@
-import S from '@sanity/desk-tool/structure-builder'
 import PreviewIFrame from '../../src/components/previewIFrame'
 import { FaHammer } from "react-icons/fa"
 import { MdMenu } from "react-icons/md"
 
-export default S.listItem()
+export default (S) => S.listItem()
   .title('Page Builder')
   .icon(FaHammer)
   .child(

@@ -1,10 +1,9 @@
 import React from 'react'
-import S from '@sanity/desk-tool/structure-builder'
 import resolveUrl from '../../resolvePreviewUrl'
 
 const env = process.env.NODE_ENV || 'development'
 
-const PreviewIFrame = () =>
+const PreviewIFrame = (S) =>
   S.view
     .component(({document}) => {
       const {displayed} = document
