@@ -1,48 +1,31 @@
 {
   "name": "commediate-cms",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "",
   "main": "package.json",
   "author": "scowley101 <sfcowley@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-    "build": "sanity build"
+    "build": "sanity build",
+    "dev": "sanity dev"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
     "@iconify/react": "^3.1.3",
-    "@sanity/base": "^2.27.1",
-    "@sanity/code-input": "^2.27.1",
-    "@sanity/color-input": "^2.1.0",
-    "@sanity/components": "^2.1.0",
-    "@sanity/core": "^2.27.0",
-    "@sanity/dashboard": "^2.27.0",
-    "@sanity/default-layout": "^2.27.0",
-    "@sanity/default-login": "^2.27.0",
-    "@sanity/desk-tool": "^2.27.0",
-    "@sanity/eslint-config-studio": "^2.0.0",
-    "@sanity/production-preview": "^2.1.0",
-    "@sanity/vision": "^2.27.0",
+    "@sanity/vision": "^3.16.7",
     "eslint": "^8.6.0",
     "katex": "^0.11.1",
-    "prop-types": "^15.7",
-    "react": "^16.9",
-    "react-dom": "^16.9",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.3.1",
-    "react-instagram-embed": "^3.0.0",
-    "react-player": "^1.15.2",
-    "sanity-plugin-asset-source-thispersondoesnotexist": "0.0.1",
-    "sanity-plugin-asset-source-unsplash": "^0.1.5",
-    "sanity-plugin-dashboard-widget-document-list": "^0.0.11",
-    "sanity-plugin-dashboard-widget-netlify": "^1.0.1",
-    "sanity-plugin-google-analytics": "^0.2.6",
-    "sanity-plugin-icon-picker": "^2.0.1",
-    "sanity-plugin-mux-input": "^0.2.1",
-    "styled-components": "^5.2.0"
+    "react-player": "^2.13.0",
+    "sanity": "^3.16.7",
+    "styled-components": "^5.3.6"
   },
   "repository": {
     "type": "git",

@@ -2,16 +2,16 @@ import {FiColumns} from "react-icons/fi";
 
 
 export default {
-    type: 'object',
     name: 'codeInject',
     title: 'Inject Code',
+    type: 'object',
     icon: FiColumns,
     description: '',
     fields: [
         {
             name: 'code',
             title: 'Code',
-            type: 'code',
+            type: 'text',
           },
         
     ],

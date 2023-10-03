@@ -1,4 +1,3 @@
-import preview from "part:sanity-plugin-icon-picker/preview";
 import { BsEmojiSmile } from "react-icons/bs"
 
 
