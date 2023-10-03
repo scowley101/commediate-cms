@@ -4,7 +4,7 @@ import {
   mathInlineIcon,
   mathIcon,
   highlightIcon,
-  highlightRender,
+  OrangeHighlight,
   tickIcon,
   crossIcon,
 } from '../components/PortableTextEditorComponents'
@@ -40,18 +40,9 @@ export default {
             {title: 'Italic', value: 'italic'},
             {title: 'Code', value: 'code'},
             {title: 'Underline', value: 'underline'},
-            {title: 'Orange Underline', value: 'orangeUnderline', blockEditor: {
-              icon: highlightIcon,
-              render: highlightRender
-            }},
-            {title: 'Tick Icon List', value: 'tickIcon', blockEditor: {
-              icon: tickIcon,
-            
-            }},
-            {title: 'Cross Icon List', value: 'crossIcon', blockEditor: {
-              icon: crossIcon,
-            
-            }},
+            {title: 'Orange Underline', value: 'orangeUnderline', icon: highlightIcon, component: OrangeHighlight},
+            {title: 'Tick Icon List', value: 'tickIcon', icon: tickIcon},
+            {title: 'Cross Icon List', value: 'crossIcon', icon: crossIcon},
           ],
           annotations: [
             {

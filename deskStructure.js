@@ -1,4 +1,3 @@
-import S from '@sanity/desk-tool/structure-builder'
 import { MdMenu } from "react-icons/md"
 import { GoBrowser as PageIcon, GoHome, GoSettings } from "react-icons/go"
 import blog from './src/structure/blog'
@@ -10,7 +9,7 @@ const hiddenDocTypes = (listItem) =>
     listItem.getId()
   )
 
-export default () =>
+export default (S) =>
   S.list()
     .title('Content')
     .items([

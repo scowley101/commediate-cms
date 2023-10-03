@@ -11,7 +11,7 @@ export const highlightIcon = () => (
   <span style={{fontWeight: 'bold'}}>H</span>
   )
 
-export const highlightRender = props => (
+export const OrangeHighlight = props => (
     <span style={{ backgroundColor: 'yellow' }}>{props.children}</span>
   )
 

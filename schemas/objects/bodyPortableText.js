@@ -4,7 +4,7 @@ import {
   mathInlineIcon,
   mathIcon,
   highlightIcon,
-  highlightRender,
+  OrangeHighlight,
 } from '../components/PortableTextEditorComponents'
 
 export default {
@@ -41,10 +41,9 @@ export default {
           {
             title: 'Highlight',
             value: 'highlight',
-            blockEditor: {
-              icon: highlightIcon,
-              render: highlightRender
-            }
+            icon: highlightIcon,
+            component: OrangeHighlight
+         
           }
 
           /*

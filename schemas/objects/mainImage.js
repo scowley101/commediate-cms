@@ -5,14 +5,22 @@ export default {
     options: {
       hotspot: true
     },
+    fieldsets: [
+      {
+        name: 'caption',
+        title: 'Caption',
+        options: {
+          collapsible: true,
+          collapsed: true
+        }
+      }
+    ],
     fields: [
       {
         name: 'caption',
         type: 'string',
         title: 'Caption',
-        options: {
-          isHighlighted: true
-        }
+        fieldsets: 'caption'
       },
       {
         name: 'alt',
@@ -20,9 +28,7 @@ export default {
         title: 'Alternative text',
         description: 'Important for SEO and accessibility.',
         validation: Rule => Rule.error('You have to fill out the alternative text.').required(),
-        options: {
-          isHighlighted: true
-        }
+        fieldsets: 'caption'
       }
     ],
      preview: {

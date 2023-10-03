@@ -17,9 +17,11 @@ export const instagram = {
       description: 'The URL to the post as seen in a desktop browser',
     },
   ],
+  components: [
+  InstagramPreview,
+  ],
   preview: {
     select: { url: 'url' },
-    component: InstagramPreview,
   },
 }
 
@@ -34,9 +36,11 @@ export const videoEmbed = {
       name: 'url',
     },
   ],
+  components: [
+    EmbedPlayer
+  ],
   preview: {
     select: { url: 'url' },
-    component: EmbedPlayer,
   },
 }
 
@@ -52,8 +56,10 @@ export const soundcloud = {
       description: 'The URL to the post as seen in a desktop browser',
     },
   ],
+  components: [
+    EmbedPlayer
+  ],
   preview: {
     select: { url: 'url' },
-    component: EmbedPlayer,
   },
 }

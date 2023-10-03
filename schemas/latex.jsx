@@ -17,10 +17,7 @@ export default {
       name: 'latex',
     },
   ],
-  preview: {
-    select: {
-      latex: 'latex',
-    },
-    component: Preview,
-  },
+components: {
+preview: Preview,
+}
 }
